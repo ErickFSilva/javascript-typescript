@@ -1,7 +1,9 @@
 # Javascript e Typescript
 
-[Curso de JavaScript e TypeScript](https://www.udemy.com/course/curso-de-javascript-moderno-do-basico-ao-avancado/)
+
 **Conteúdo apresentado nesse curso:**
+[Curso de JavaScript e TypeScript](https://www.udemy.com/course/curso-de-javascript-moderno-do-basico-ao-avancado/)
+
 
 - JavaScript Básico, Funcional e Orientado a Objetos (ES6+, front-end e back-end)
 - TypeScript - um superset do JavaScript com tipagem estática (front-end e back-end)
