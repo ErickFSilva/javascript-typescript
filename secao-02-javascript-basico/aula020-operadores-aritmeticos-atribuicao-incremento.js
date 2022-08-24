@@ -9,8 +9,21 @@
  * +: Adção
  * -: Subtração
  * 
+ * 
+ * - Operadores de incremento e decremento:
+ * 
  * ++: Incremento
  * --: Decremento
+ * 
+ * 
+ * - Operadores de atribuição:
+ * 
+ * =
+ * =*
+ * =/
+ * =+
+ * =-
+ * 
  */
 
 
@@ -44,3 +57,27 @@ let cont = 0;
 cont += passo;
 
 console.log(cont);
+console.log();
+
+
+// NaN - Not a number
+const num1 = 10;
+const num2 = 'Erick';
+const num3 = '8';
+
+console.log(num1 * num2);
+console.log(num1 * num3);
+console.log();
+
+
+// Convertendo string com o parseInt, parseFloat
+const num4 = parseInt('5');
+const num5 = parseFloat('6.2');
+const num6 = Number('5.3');
+
+console.log(typeof num4);
+console.log(num1 * num4);
+console.log(typeof num5);
+console.log(num1 * num5);
+console.log(typeof num6);
+console.log(num1 + num6);
