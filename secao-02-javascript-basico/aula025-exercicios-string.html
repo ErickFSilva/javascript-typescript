@@ -7,33 +7,30 @@
     <title>JavaScript</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-
-    <style>
-        dt { margin: 10px 0; }
-        dd { text-indent: 20px; }
-    </style>
 </head>
-<body>
+<body class="p-3">
 
-    <div class="container py-3">
+    <div class="container">
+        <div class="row">
 
-        <script>
+            <script>
 
-            // const nome = prompt('Enter your full name:');
-            const nome = 'Erick Ferreira da Silva';
-
-            document.body.innerHTML = `Seu nome é: <b>${nome}</b><br>`;
-            document.body.innerHTML += `Seu nome tem <b>${nome.length}</b> letras<br>`;
-            document.body.innerHTML += `A 2ª letra do seu nome é: <b>${nome.charAt(1)}</b> <br>`;
-            document.body.innerHTML += `Qual o primeiro índice da letra "F" no seu nome: <b>${nome.indexOf('F')}</b> <br>`;
-            document.body.innerHTML += `Qual o último índice da letra "S" no seu nome: <b>${nome.lastIndexOf('S')}</b> <br>`;
-            document.body.innerHTML += `As últimas 3 letras do seu nome são: <b>${nome.slice(-3)}</b> <br>`;
-            document.body.innerHTML += `As palavras do seu nome são: <b>${nome.split(' ')}</b> <br>`;
-            document.body.innerHTML += `Seu nome com letras maiúsculas: <b>${nome.toUpperCase()}</b> <br>`;
-            document.body.innerHTML += `Seu nome com letras minúsculas: <b>${nome.toLowerCase()}</b> <br>`;
+                // const nome = prompt('Digite seu nome completo:');
+                const nome = 'Erick Ferreira da Silva';
+                let letra = 'a';
     
-        </script>
+                document.body.innerHTML = `Seu nome é: <strong>${nome}</strong> <br>`;
+                document.body.innerHTML += `Seu nome tem <strong>${nome.length}</strong> letras <br>`;
+                document.body.innerHTML += `A segunda letra do seu nome é <strong>${nome.charAt(1)}</strong> <br>`;
+                document.body.innerHTML += `Qual o primeiro índice da letra "a" no seu nome: <strong>${nome.indexOf('a')}</strong> <br>`;
+                document.body.innerHTML += `Qual o último índice da letra "a" em seu nome: <strong>${nome.lastIndexOf('a')}</strong> <br>`;
+                document.body.innerHTML += `As palavras do seu nome são: <strong>${nome.split(' ')}</strong> <br>`;
+                document.body.innerHTML += `Seu nome com letras maiúsculas: <strong>${nome.toUpperCase()}</strong> <br>`;
+                document.body.innerHTML += `Seu nome co letras minúsculas: <strong>${nome.toLowerCase()}</strong> <br>`;
+        
+            </script>
 
+        </div>
     </div>
 
 
