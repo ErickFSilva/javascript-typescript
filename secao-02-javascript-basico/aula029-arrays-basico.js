@@ -20,10 +20,10 @@ console.log(alunos);
 alunos.pop(); // remove o aluno da última posição do array
 console.log(alunos);
 
-alunos.shift(); // rmove o aluno da primeira posiçaõ do array
+alunos.shift(); // rmove o aluno da primeira posição do array
 console.log(alunos);
 
-delete alunos[1]; // apaga o aluno da posição "1" do array
+delete alunos[1]; // apaga o aluno da posição "1" do array, deixando a posição vazia
 console.log(alunos);
 
 alunos[1] = 'Erick'; // adiciona o aluno da posição "1" do array
