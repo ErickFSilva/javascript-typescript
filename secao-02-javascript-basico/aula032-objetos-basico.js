@@ -1,4 +1,4 @@
-// Array
+// - Array
 const array = [1,2,3];
 array.push(4);
 array[0] = 'Luiz';
@@ -6,7 +6,7 @@ array[0] = 'Luiz';
 console.log(array);
 
 
-// Variáveis
+// - Variáveis
 const nome01 = 'Luiz';
 const sobrenome01 = 'Oliveira';
 const idade01 = 25;
@@ -16,17 +16,17 @@ const sobrenome02 = 'Oliveira';
 const idade02 = 55;
 
 
-// Objeto literal
+// - Objeto literal
 const pessoa = {
-    nome: 'Erick',
-    sobrenome: 'Ferreira',
+    nome: 'Luiz',
+    sobrenome: 'Miranda',
     idade: 36
 };
 
-console.log(pessoa1.nome);
+console.log(pessoa.nome);
 
 
-// Função factory (retorna objetos), para criar objetos
+// - Função factory (retorna um objeto)
 // function criaPessoa (nome, sobrenome, idade) {
 //     return {
 //         nome: nome,
@@ -36,11 +36,7 @@ console.log(pessoa1.nome);
 // }
 
 function criaPessoa (nome, sobrenome, idade) {
-    return {
-        nome,
-        sobrenome,
-        idade
-    }
+    return { nome, sobrenome, idade }
 }
 
 const pessoa1 = criaPessoa('Erick', 'Ferreira', 36);
@@ -52,3 +48,23 @@ console.log(pessoa1.nome);
 console.log(pessoa2.nome);
 console.log(pessoa3.nome);
 console.log(pessoa4.nome);
+
+
+// - Quando uma função está dentro de um objeto ela é chamado de método
+const pessoa5 = {
+    nome: 'Luiz',
+    sobrenome: 'Miranda',
+    idade: 25,
+
+    fala() {
+        console.log(`A minha idade atuel é ${this.idade}`);
+    },
+
+    incrementaIdade() {
+        ++this.idade;
+    }
+}
+
+pessoa5.fala();
+pessoa5.incrementaIdade();
+pessoa5.fala();
