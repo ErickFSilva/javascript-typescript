@@ -26,7 +26,8 @@ const pessoa = {
 console.log(pessoa.nome);
 
 
-// - Função factory (retorna um objeto)
+// - Função factory: (retorna um objeto)
+
 // function criaPessoa (nome, sobrenome, idade) {
 //     return {
 //         nome: nome,
@@ -50,6 +51,7 @@ console.log(pessoa3.nome);
 console.log(pessoa4.nome);
 
 
+// - Objeto:
 // - Quando uma função está dentro de um objeto ela é chamado de método
 const pessoa5 = {
     nome: 'Luiz',
